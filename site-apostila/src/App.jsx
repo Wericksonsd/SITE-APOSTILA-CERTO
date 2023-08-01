@@ -32,6 +32,21 @@ function App() {
           </section>     
         <footer>DESENVOLVIDO POR ABRINDO PORTAS</footer>        
       </div>
+      <script>
+
+      window.scroll = function() {menubarScroll()};
+      var menubar = document.getElementById("menubar");
+      var sticky = menubar.offsetTop;
+
+      function menubarScroll(){
+        if (window.scrollY >= sticky){
+            menubar.classList.add("sticky");
+        } else {
+            menubar.classList.remove("sticky"); 
+        }
+      }
+
+      </script>
     </>
   )
 }
