@@ -87,7 +87,46 @@ article{
   background-color: var(--corRosa);
   height: 100%;
   grid-row: 2;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
 }
+
+article div{
+  width: 12.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article div:hover{
+  background-color: #da6c6e;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+#menuOp{
+  position: absolute;
+  width: 100%;
+  transform: translate(0, 27vh);
+  padding: 20px;
+  background-color: #211F45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+
+
+
 
 .sticky{
   position: fixed;
@@ -105,9 +144,9 @@ article{
 
 main{
   height: 100%;
-  padding: 10px;
+  padding: 20px;
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   font-family: var(--montserat);
   color: rgb(31, 31, 31);
   grid-row: 3;
@@ -115,36 +154,48 @@ main{
 
 #Lets{
   font-family: 'Roboto Slab', serif;
-  font-size: 2.5em;
+  font-size: 2.8em;
   text-align: center;
 }
 
 .sumario{
-  margin-top: 150px;
+  margin-top: 50px;
   font-weight: 600;
-  display: grid;
-  grid-template-areas:
-  'capitulo vazio vazio vazio'
-  'itens itens itens itens';
 }
-.sumario article{
-  margin: 0 0 20px -10px;
-  padding-left: 20px;
+.sumario div{
   text-align: center;
-  border-radius: 0 5px 5px 0;
   font-size: xx-large;
-  font-weight: 600;
-  color: rgb(207, 128, 24);
-  background-color: rgb(3, 3, 85);
-  grid-area: capitulo;
+  font-weight: 900;
+  color: var(--corAzul2);
 }
 
 .sumario>ol{
   list-style-type: none;
+  padding-top: 30px;
   padding-left: 15px;
-  grid-area: itens;
-  line-height: 280%;
+  line-height: 200%;
 }
+
+.sumario a{
+  text-decoration: none;
+  color: black;
+}
+
+.capitulos a{
+  font-weight: 900;
+  color: var(--corAzul);
+}
+
+.linha{
+  margin: 15px 0;
+  height: 5px;
+  background-color: var(--corAzul);
+}
+
+
+/*
+///////////////////////////////////////////
+*/
 
 #conteudo{
   margin-top: 30px;
@@ -153,13 +204,40 @@ main{
 
 #conteudo h1{
   font-size: 2.5em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
+  color: var(--corAmarelo);
+  text-shadow: 2px 2px 0 var(--corAzul2);
 }
 
 #conteudo h2{
   text-align: left;
+  margin-bottom: 10px;
 }
+
+table{
+  margin-top: 20px;
+}
+
+table, th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;  
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d6d6;
+}
+
+th {
+  background-color: #323333;
+  color: var(--corBranco);
+  font-weight: 600;
+  border-color: var(--corBranco);
+}
+
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////
