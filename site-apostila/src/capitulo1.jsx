@@ -12,8 +12,14 @@ function Cap1(){
             <th>SUBJECT PERSONAL PRONOME</th>
             <th>OBJECT PERSONAL PRONOME</th>
             </tr>
-            <tr>
-            <td>eu</td> <td>I</td> <td>me</td>
+            <tr> <td>eu</td> <td>I</td> <td>me</td> </tr>
+            <tr> <td>você</td> <td>you</td> <td>you</td> </tr>
+            <tr> <td>ele</td> <td>he</td> <td>him</td> </tr>            
+            <tr> <td>ela</td> <td>she</td> <td>her</td> </tr>            
+            <tr> <td>ele/ela</td> <td>it</td> <td>it</td> </tr>            
+            <tr> <td>nós</td> <td>we</td> <td>us</td> </tr>            
+            <tr> <td>vocês</td> <td>you</td> <td>you</td> </tr>
+            <tr> <td>eles</td> <td>they</td> <td>them</td> </tr>
             
             </tr>
         </table>
