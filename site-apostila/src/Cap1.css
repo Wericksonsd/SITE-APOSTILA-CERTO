@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#pronoums1{
+  width: 100%;
+  display: flex;
+}
+
+#pronoums1 article{
+  width: 150px;
+  height: auto;
+  background-image: url(assets/pronoums1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -50px;
+}
+
+#pronoums1 div{
+  padding-right: 50px;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css'
+import './App.css';
+import './Cap1.css';
 
 function Cap1(){
     return(
@@ -23,10 +24,22 @@ function Cap1(){
         </table>
         <p>O pronome é usado quando nos referimos a animais, plantas e
         objetos, mas não pessoas.</p>
-        <div className='exemplos'>
-            <h4>This is Sushi, it’s my kitty, it’s so cute.</h4>
-            <p>Essa é a Sushi, ela é minha gatinha, ela é tão fofa.</p>
+        <div id='pronoums1'>
+            <div className='exemplos'>
+                <h4>This is Sushi, it’s my kitty, it’s so cute.</h4>
+                <p>Essa é a Sushi, ela é minha gatinha, ela é tão fofa.</p>
             </div>
+            <article></article>
+        </div>
+        <p>Também usamos para falarmos sobre nós mesmos.</p>
+        <div className='exemplos'>
+            <h4>Hello, it’s Thomas.</h4>
+            <p>Olá, é o Thomas.</p>
+            <h4>Yes, it’s me, it’s Mary.</h4>
+            <p>Sim, sou eu, é a Mary.</p>
+        </div>
+        <h2>Subject Personal Pronoun</h2>
+        <p>Usamos o <span className='negrito'>subject personal pronoun</span> (pronome pessoal reto) quando algo ou alguém é o sujeito da ação, ou seja, quem <span className='negrito'>realiza</span> a ação do verbo na frase.</p>
         <div className='linha'></div>
         </>
     )
