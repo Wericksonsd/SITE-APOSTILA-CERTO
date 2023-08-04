@@ -19,3 +19,18 @@
   padding-right: 50px;
 }
 
+
+.exe2>div{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.exe2>div>div{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+

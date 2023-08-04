@@ -40,6 +40,43 @@ function Cap1(){
         </div>
         <h2>Subject Personal Pronoun</h2>
         <p>Usamos o <span className='negrito'>subject personal pronoun</span> (pronome pessoal reto) quando algo ou alguém é o sujeito da ação, ou seja, quem <span className='negrito'>realiza</span> a ação do verbo na frase.</p>
+        <div className='exemplos exe2'>
+            <div>
+                <div>
+                    <h4>Stephanie studies a lot.</h4>
+                    <p>Stephanie estuda muito.</p>
+                </div>
+                <span class="material-symbols-rounded">line_end_arrow_notch</span>
+                <div>
+                    <h4>The house is big.</h4>
+                    <p>A casa é grande.</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Stephanie studies a lot.</h4>
+                    <p>Stephanie estuda muito.</p>
+                </div>
+                <span class="material-symbols-rounded">line_end_arrow_notch</span>
+                <div>
+                    <h4>The house is big.</h4>
+                    <p>A casa é grande.</p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Stephanie studies a lot.</h4>
+                    <p>Stephanie estuda muito.</p>
+                </div>
+                <span class="material-symbols-rounded">line_end_arrow_notch</span>
+                <div>
+                    <h4>The house is big.</h4>
+                    <p>A casa é grande.</p>
+                </div>
+            </div>
+        </div>
         <div className='linha'></div>
         </>
     )
